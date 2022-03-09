@@ -87,6 +87,46 @@
         text-align: center;
         margin-left: 64vh;
     }
+    .experience1{
+        margin-top: 20vh;
+        margin-left: 90vh;
+    }
+    .exper h5, .exper1 h5, .exper2 h5{
+        width: 90%;
+        font-size: 18px;
+    }
+    .exper p, .exper1 p, .exper2 p{
+        width: 70%;
+        font-size: 14px;
+    }
+    .exper, .exper1{
+        padding: 20px 20px;
+        width: 29.5vw; 
+        height: 13vh;
+    }
+    .exper2{
+        padding: 20px 20px;
+        width: 29.5vw; 
+        height: 17vh;
+    }
+    .exper1{
+        margin-left: -35vw;
+    }
+    .skills{
+        margin-top: 30vh;
+        background: #272727;
+        padding: 20px 10px;
+    }
+    .skills h5{
+        font-size: 14px;
+    }
+    .skills h3{
+        font-size: 36px;
+    }
+    .skil{
+        margin-left: 10vw;
+        padding-top: 8vh;
+    }
 }
 
 /* Handphone */
@@ -157,4 +197,36 @@
         text-align: center;
         margin-left: 12vh;
     }
+    .experience1{
+        margin-top: 15vh;
+    }
+    .exper h5, .exper1 h5, .exper2 h5{
+        width: 100%;
+        font-size: 16px;
+    }
+    .exper p, .exper1 p, .exper2 p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .exper{
+        padding: 20px 20px;
+        width: 93vw; 
+        height: 15vh;
+    }
+    .exper2{
+        padding: 20px 20px;
+        width: 93vw; 
+        height: 20vh;
+    }
+    .exper1{
+        padding: 20px 20px;
+        width: 93vw; 
+        height: 15vh;
+    }
+    .skills{
+        margin-top: 30vh;
+        background: unset;
+        padding: unset;
+    }
+
 }
