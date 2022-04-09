@@ -1,0 +1,822 @@
+/* Responsive */
+/* Large Desktop */
+@media only screen and (max-width: 1440px){
+    .navbar{
+        padding-top: 15px;
+    }
+    .navbar img{
+        width: 15vw;
+    }
+    .latar{
+        margin-top: -5%;
+    }
+    .latar img{
+        width: 100%;
+        height: 100vh;
+    }
+    .latar1{
+        margin-top: -90vh;
+    }
+    .foto{
+        margin-top: 20vh;
+    }
+    .foto img:first-child{
+        width: 18%;
+        margin-left: 15%;
+    }
+    .foto img:nth-child(2){
+        width: 75%;
+        margin-top: -20%;
+    }
+    .foto img:nth-child(3){
+        position: relative;
+        z-index: -1;
+        width: 15%;
+        margin-top: 30%;
+        margin-left: -15%;
+    }
+    .contents{
+        margin-top: 15%;
+    }
+    .conten h2{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .conten h3{
+        font-size: 3.2rem;
+        width: 100%;
+    }
+    .conten p{
+        font-size: 1rem;
+        width: 80%;
+    }
+    .social button{
+        width: 20vh;
+        padding: 6px 6px;
+        background-color: #9D8223;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        font-size: .9rem;
+        box-shadow: 0px 5px 10px rgba(157, 130, 35, 0.4);
+    }
+    .social1{
+        margin-left: 10%;
+    }
+    .social2{
+        margin-left: -8%;
+    }
+    .services{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 40%;
+        text-align: center;
+    }
+    .services p{
+        margin: 10px auto;
+        width: 25%;
+        font-size: .9rem;
+    }
+    .services h5{
+        font-size: 1.2rem;
+    }
+    .services h3{
+        font-size: 3.2rem;
+    }
+    .services1{
+        margin-top: 10%;
+    }
+    .services2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .service{
+        background-color: #272727;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        color: #ffff;
+        border-radius: 10px;
+    }
+    .service:hover{
+        box-shadow: 0px 0px 15px rgba(157, 130, 35, 0.7);
+        transition: all .5s ease-out;
+    }
+    .service h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .service p{
+        font-size: .9rem;
+        font-weight: 400;
+        color: #7D7D7D;
+    }
+    .experien{
+        margin-top: 25%;
+    }
+    .experien img{
+        width: 30%;
+        margin-left: -10%;
+    }
+    .experiens{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -10%;
+    }
+    .experiens p{
+        margin: 0 auto;
+        width: 26%;
+        font-size: .8rem;
+    }
+    .experiens h5{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .experiens h3{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .experiences1{
+        margin-top: 10%;
+    }
+    .exper{
+        margin: 0 auto;
+        width: 30%;
+        text-align: left;
+    }
+    .exp, .exp1{
+        background-color: #272727;
+        margin: 10% 0;
+        color: #ffff;
+        padding: 15px 15px;
+        border-radius: 10px;
+    }  
+    .exp{
+        margin-left: 60%;
+    }
+    .exp1{
+        margin-left: -60%;
+    }
+    .exp h4, .exp1 h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .exp p, .exp1 p{
+        color: #727272;
+        font-size: .9rem;
+    }
+    .experiences2{
+        margin-top: 5%;
+    }
+    .experiences2 img{
+        width: 20%;
+        float: right;
+    }
+    .skill{
+        margin-top: 35%;
+    }
+    .skills{
+        background-color: #272727;
+        margin: 0 auto;
+        width: 100vw;
+        padding: 50px;
+    }
+    .skills h5{
+        font-size: 1rem;
+    }
+    .skills h3{
+        font-size: 3rem;
+    }
+    .skill1{
+        padding: 20px 0;
+        margin: 50px 0;
+        width: 100%;
+    }
+    .bawah{
+        margin-top: -5%;
+    }
+    .bawah img{
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+    .bawah1{
+        margin-top: -15%;
+    }
+    .bawah1 h4{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .bawah1 p{
+        font-size: .9rem;
+    }
+    .bawah-social1{
+        margin-left: -20%;
+    }
+}
+
+/* Desktop */
+@media only screen and (max-width: 1024px){
+    .navbar-brand img{
+        width: 15vw;
+    }
+    .latar{
+        margin-top: -5%;
+    }
+    .latar img{
+        width: 100%;
+        height: 100vh;
+    }
+    .latar1{
+        margin-top: -90vh;
+    }
+    .foto{
+        margin-top: 10vh;
+    }
+    .foto img:first-child{
+        width: 25%;
+        margin-left: 15%;
+    }
+    .foto img:nth-child(2){
+        width: 80%;
+        margin-top: -20%;
+    }
+    .foto img:nth-child(3){
+        width: 20%;
+        margin-top: 32%;
+        margin-left: -18%;
+    }
+    .contents{
+        margin-top: 15%;
+    }
+    .conten h2{
+        font-size: 1.2rem;
+    }
+    .conten h3{
+        font-size: 2.5rem;
+    }
+    .conten p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .social button{
+        width: 22vh;
+        padding: 6px 6px;
+        background-color: #9D8223;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        font-size: .9rem;
+        box-shadow: 0px 5px 10px rgba(157, 130, 35, 0.4);
+    }
+    .social1{
+        margin-left: 24%;
+    }
+    .social2{
+        margin-left: -6%;
+    }
+    .services{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 50%;
+        text-align: center;
+    }
+    .services p{
+        margin: 10px auto;
+        width: 32%;
+        font-size: .8rem;
+    }
+    .services h5{
+        font-size: 1rem;
+    }
+    .services h3{
+        font-size: 2rem;
+    }
+    .services2{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .service{
+        background-color: #272727;
+        width: 30%;
+        margin: 0 auto;
+        border-radius: 10px;
+    } 
+    .service:hover{
+        box-shadow: 0px 0px 15px rgba(157, 130, 35, 0.7);
+        transition: all .5s ease-out;
+    }
+    .service h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .service p{
+        font-size: .9rem;
+        font-weight: 400;
+        color: #7D7D7D;
+    }
+      .experien{
+        margin-top: 30%;
+    }
+    .experien img{
+        width: 35%;
+        margin-left: -10%;
+    }
+    .experiens{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -10%;
+    }
+    .experiens p{
+        margin: 0 auto;
+        width: 35%;
+        font-size: .8rem;
+    }
+    .experiens h5{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .experiens h3{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .experiences1{
+        margin-top: 10%;
+    }
+    .exper{
+        margin: 0 auto;
+        width: 40%;
+        text-align: left;
+    }
+    .exp, .exp1{
+        background-color: #272727;
+        margin: 10% 0;
+        color: #ffff;
+        padding: 15px 15px;
+        border-radius: 10px;
+    }  
+    .exp{
+        margin-left: 60%;
+    }
+    .exp1{
+        margin-left: -60%;
+    }
+    .exp h4, .exp1 h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .exp p, .exp1 p{
+        color: #727272;
+        font-size: .8rem;
+    }
+    .experiences2{
+        margin-top: 10%;
+    }
+    .experiences2 img{
+        width: 20%;
+        float: right;
+    }
+    .skill{
+        margin-top: 60%;
+    }
+    .skills{
+        background-color: #272727;
+        margin: 0 auto;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    .skills h5{
+        font-size: 1rem;
+    }
+    .skills h3{
+        font-size: 2.5rem;
+    }
+    .skill1{
+        padding: 20px 0;
+        margin: 20px 0;
+        width: 100%;
+    }
+    .bawah{
+        margin-top: -5%;
+    }
+    .bawah img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .bawah1{
+        margin-top: -25%;
+    }
+    .bawah1 h4{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .bawah1 p{
+        font-size: .9rem;
+    }
+    .bawah-social1{
+        margin-left: -18%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+    .navbar-brand img{
+        width: 20vw;
+    }
+    .latar{
+        margin-top: -10%;
+    }
+    .latar img{
+        width: 100%;
+        height: 100vh;
+    }
+    .latar1{
+        margin-top: -80vh;
+    }
+    .foto{
+        margin-top: 10vh;
+    }
+    .foto img:first-child{
+        width: 28%;
+        margin-left: 18%;
+    }
+    .foto img:nth-child(2){
+        width: 100%;
+        margin-top: -20%;
+    }
+    .foto img:nth-child(3){
+        width: 20%;
+        float: right;
+        margin-top: -12%;
+    }  
+    .conten h2{
+        font-size: 1.2rem;
+    }
+    .conten h3{
+        font-size: 1.8rem;
+    }
+    .conten p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .social button{
+        width: 20vh;
+        padding: 6px 6px;
+        background-color: #9D8223;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        font-size: .8rem;
+        box-shadow: 0px 5px 10px rgba(157, 130, 35, 0.4);
+    }
+    .social1{
+        margin-left: 25%;
+    }
+    .social2{
+        margin-left: -5%;
+    }
+    .services{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 50%;
+        text-align: center;
+    }
+    .services p{
+        margin: 10px auto;
+        width: 44%;
+        font-size: .8rem;
+    }
+    .services h5{
+        font-size: 1rem;
+    }
+    .services h3{
+        font-size: 2rem;
+    }
+    .services2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .service{
+        width: 30%;
+        margin: 0 auto;
+        background-color: #272727;
+        border-radius: 10px;
+    }
+    .service:hover{
+        box-shadow: 0px 0px 15px rgba(157, 130, 35, 0.7);
+        transition: all .5s ease-out;
+    }
+    .service h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .service p{
+        font-size: .9rem;
+        font-weight: 400;
+        color: #7D7D7D;
+    }
+    .experien{
+        margin-top: 40%;
+    }
+    .experien img{
+        width: 45%;
+        margin-left: -15%;
+    }
+    .experiens{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: -10%;
+    }
+    .experiens p{
+        margin: 0 auto;
+        width: 45%;
+        font-size: .8rem;
+    }
+    .experiens h5{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .experiens h3{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .experiences1{
+        margin-top: 10%;
+    }
+    .exper{
+        margin: 0 auto;
+        width: 45%;
+        text-align: left;
+    }
+    .exp, .exp1{
+        background-color: #272727;
+        margin: 10% 0;
+        color: #ffff;
+        padding: 15px 15px;
+        border-radius: 10px;
+    }  
+    .exp{
+        margin-left: 60%;
+    }
+    .exp1{
+        margin-left: -60%;
+    }
+    .exp h4, .exp1 h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .exp p, .exp1 p{
+        color: #727272;
+        font-size: .8rem;
+    }
+    .experiences2{
+        margin-top: 10%;
+    }
+    .experiences2 img{
+        width: 25%;
+        float: right;
+    }
+    .skill{
+        margin-top: 60%;
+    }
+    .skills{
+        background-color: #272727;
+        margin: 0 auto;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    .skills h5{
+        font-size: 1rem;
+    }
+    .skills h3{
+        font-size: 1.5rem;
+    }
+    .skill1{
+        padding: 20px 0;
+        margin: 20px 0;
+        width: 100%;
+    }
+    .bawah{
+        margin-top: -10%;
+    }
+    .bawah img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .bawah1{
+        margin-top: -22%;
+    }
+    .bawah1 h4{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .bawah1 p{
+        font-size: .9rem;
+    }
+    .bawah-social1{
+        margin-left: -16%;
+    }
+}
+
+/* Handphone */
+@media only screen and (max-width: 576px){
+    .navbar-brand img{
+        width: 40vw;
+    }
+    .latar{
+        margin-top: -15%;
+    }
+    .latar img{
+        display: none;
+    }
+    .latar1{
+        margin-top: 20%;
+    }
+    .foto{
+        margin-top: 20%;
+    }
+    .foto img:first-child{
+        width: 28%;
+        margin-left: 18%;
+    }
+    .foto img:nth-child(2){
+        width: 100%;
+        margin-top: -20%;
+    }
+    .foto img:nth-child(3){
+        width: 20%;
+        float: right;
+        margin-top: -12%;
+    }
+    .conten h2{
+        font-size: 1.2rem;
+    }
+    .conten h3{
+        font-size: 2rem;
+    }
+    .conten p{
+        font-size: .9rem;
+        width: 100%;
+    }
+    .social button{
+        width: 22vh;
+        padding: 6px 6px;
+        background-color: #9D8223;
+        border: none;
+        border-radius: 5px;
+        color: #ffff;
+        font-size: .9rem;
+        box-shadow: 0px 5px 10px rgba(157, 130, 35, 0.4);
+    }
+    .social1{
+        margin-left: 25%;
+    }
+    .social2{
+        margin-left: -5%;
+    }
+    .services{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 60%;
+        text-align: center;
+    }
+    .services p{
+        margin: 10px auto;
+        width: 90%;
+        font-size: .8rem;
+    }
+    .services h5{
+        font-size: 1rem;
+    }
+    .services h3{
+        font-size: 2rem;
+    }
+    .services2{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .service{
+        width: 100%;
+        margin: 10px auto;
+        background-color: #272727;
+        border-radius: 10px;
+    }
+    .service:hover{
+        box-shadow: 0px 0px 15px rgba(157, 130, 35, 0.7);
+        transition: all .5s ease-out;
+    }
+    .service h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .service p{
+        font-size: .9rem;
+        font-weight: 400;
+        color: #7D7D7D;
+    }
+    .experien{
+        margin-top: 40%;
+    }
+    .experien img{
+        width: 60%;
+        margin-left: -20%;
+    }
+    .experiens{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .experiens p{
+        margin: 0 auto;
+        width: 90%;
+        font-size: .8rem;
+    }
+    .experiens h5{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .experiens h3{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .experiences1{
+        margin-top: 10%;
+    }
+    .exper{
+        margin: 0 auto;
+        width: 90%;
+        text-align: left;
+    }
+    .exp, .exp1{
+        background-color: #272727;
+        margin: 10px 0;
+        color: #ffff;
+        padding: 15px 15px;
+        border-radius: 10px;
+    }
+    .exp{
+        margin-left: unset;
+    }
+    .exp1{
+        margin-left: unset;
+    }
+    .exp h4, .exp1 h4{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .exp p, .exp1 p{
+        color: #727272;
+        font-size: .8rem;
+        width: 100%;
+    }
+    .experiences2{
+        margin-top: 10%;
+    }
+    .experiences2 img{
+        width: 40%;
+    }
+    .skill{
+        margin-top: 60%;
+    }
+    .skills{
+        background-color: #272727;
+        margin: 0 auto;
+        width: 100vw;
+        padding-top: 20px;
+    }
+    .skills h5{
+        font-size: 1rem;
+    }
+    .skills h3{
+        font-size: 1.5rem;
+    }
+    .skill1{
+        padding: 20px 0;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .bawah img{
+        display: none;
+    }
+    .bawah1{
+        margin-top: 20%;
+    }
+    .bawah1 h4{
+        font-size: 1.5rem;
+    }
+    .bawah1 p{
+        font-size: .9rem;
+    }
+    .bawah-social1{
+        margin-left: unset;
+    }
+
+
+   
+   
+}
